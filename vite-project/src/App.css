@@ -7,3 +7,4 @@ body {
   -webkit-background-clip: text;
   @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
 }
+
