@@ -252,8 +252,24 @@ function App() {
               </div>
             </div>
           </section>
+          <section className="py-8">
+            <div className="container m-auto px-4">
+              <h2 className="text-2xl font-semibold">Sobre mim</h2>
+              <div className="mt-12">
+                  <div>
+                    Curso de Informática 
+                  </div>
+                  <div>
+                    Curso de Informática 
+                  </div>
+                  <div>
+                    Curso de Informática 
+                  </div>
+              </div>
+            </div>
+          </section>
         </section>
-      </main>
+      </main> 
     </>
   );
 }
