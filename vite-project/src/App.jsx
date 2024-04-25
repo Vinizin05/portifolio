@@ -23,17 +23,26 @@ function App() {
             <div>
               <ul className="flex gap-4">
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a
+                    href="Projetos"
+                    className="text-gray-400 hover:text-white cursor-pointer"
+                  >
                     Projetos
                   </a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a
+                    href="#Tecnologias"
+                    className="text-gray-400 hover:text-white cursor-pointer"
+                  >
                     Tecnologias
                   </a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a
+                    href="Sobre mim"
+                    className="text-gray-400 hover:text-white cursor-pointer"
+                  >
                     Sobre mim
                   </a>
                 </li>
@@ -90,7 +99,13 @@ function App() {
                     Visualizar
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Code GitHub
+                    <a
+                      href="https://github.com/Vinizin05/controle-de-financas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code GitHub
+                    </a>
                   </button>
                 </div>
               </div>
@@ -106,7 +121,13 @@ function App() {
                     Visualizar
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Code GitHub
+                    <a
+                      href="https://github.com/Vinizin05/eliti-crud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code GitHub
+                    </a>
                   </button>
                 </div>
               </div>
@@ -127,13 +148,19 @@ function App() {
                   Visualizar
                 </button>
                 <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                  Code GitHub
+                  <a
+                    href="https://github.com/Vinizin05/jogo-da-forca"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code GitHub
+                  </a>
                 </button>
               </div>
             </div>
             <div className="border border-gray-500 rounded-md p-5 flex-1">
               <img src={project3} width={600} />
-              <h3 className="text-2xl font-semibold mt-8">portfólio</h3>
+              <h3 className="text-2xl font-semibold mt-15">portfólio</h3>
               <p className="text-gray-400 text-sm mt-4">
                 Portfólio responsivo <br />
                 ReactJs, ViteJS, JavaSript, Tailwind
@@ -143,7 +170,13 @@ function App() {
                   Visualizar
                 </button>
                 <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                  Code GitHub
+                  <a
+                    href="https://github.com/Vinizin05/portifolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code GitHub
+                  </a>
                 </button>
               </div>
             </div>
@@ -315,7 +348,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a>
+                <a href="https://www.linkedin.com/in/vinizin05/">
                   <img src={Linkedin} className="w-5" />
                 </a>
               </li>
