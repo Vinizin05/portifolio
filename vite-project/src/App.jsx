@@ -4,6 +4,7 @@ import profilebg from "./assets/small.png";
 import project from "./assets/project.png";
 import project1 from "./assets/SecondProject.png";
 import project2 from "./assets/thirdproject.png";
+import project3 from "./assets/Projectfour.png";
 import Facebook from "./assets/facebook.svg";
 import Linkedin from "./assets/linkedin.svg";
 import instagram from "./assets/instagram.svg";
@@ -43,10 +44,10 @@ function App() {
       </header>
       <main>
         <section>
-          <div className="container m-auto px-4 py-32 flex gap-6  ">
+          <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-6  ">
             <div>
               <h2 className="font-bold text-3xl">Olá, Eu sou Vinicius,</h2>
-              <h2 className="font-bold text-3xl mt-1 gradiant-text">
+              <h2 className="font-bold text-3xl mt-1 gradiant-text running-text">
                 Frontend Developer.
               </h2>
               <p className="mt-4 text-gray-400">
@@ -59,17 +60,23 @@ function App() {
               </p>
             </div>
             <div className="relative">
-              <img src={profile} width={520} className="relative z-10" />
-              <img src={profilebg} width={250} className="absolute top-1 left-2 z-5" />
+              <img
+                src={profile}
+                className="relative z-10 w-[220px] m-auto sm:w-[520px]"
+              />
+              <img
+                src={profilebg}
+                className="relative -top-[160px] left-[50px] w-[180px] m-auto sm:w-[220px]"
+              />
             </div>
           </div>
         </section>
         {/* {Projects section} */}
         <section>
-          <div className="container m-auto p-4 py-12">
+          <div className="container m-auto p-4 sm:py-12">
             <h2 className="text-2xl font-semibold">Projetos</h2>
-            <div className="flex gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5">
+            <div className="flex flex-col sm:flex-row gap-10 mt-11">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={project} width={600} />
                 <h3 className="text-2xl font-semibold mt-8">
                   Controle Financeiro
@@ -78,27 +85,27 @@ function App() {
                   layout para controle de despesas e recebimentos <br />
                   RectJs, JS, Styled-Components
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-9 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Visualizar
                   </button>
-                  <button className="px-9 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Code GitHub
                   </button>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={project1} width={600} />
                 <h3 className="text-2xl font-semibold mt-8">Página de Login</h3>
                 <p className="text-gray-400 text-sm mt-4">
                   Página de Login Responsiva <br />
                   HTML5, CSS3, JavaScript
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-9 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Visualizar
                   </button>
-                  <button className="px-9 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Code GitHub
                   </button>
                 </div>
@@ -107,38 +114,35 @@ function App() {
           </div>
         </section>
         <div className="container m-auto p-4">
-          <h2 className="text-2xl font-semibold">Projetos</h2>
-          <div className="flex gap-10 mt-11">
-            <div className="border border-gray-500 rounded-md p-5">
+          <div className="flex flex-col sm:flex-row gap-10 mt-11">
+            <div className="border border-gray-500 rounded-md p-5 flex-1">
               <img src={project2} width={600} />
               <h3 className="text-2xl font-semibold mt-8">Jogo da Forca</h3>
               <p className="text-gray-400 text-sm mt-4">
                 layout De um Simples Jogo para se divertir <br />
                 HTML5, CSS3, JavaScript
               </p>
-              <div className="flex justify-evenly mt-12">
-                <button className="px-9 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+              <div className="flex mt-12 gap-2">
+                <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Visualizar
                 </button>
-                <button className="px-9 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                   Code GitHub
                 </button>
               </div>
             </div>
-            <div className="border border-gray-500 rounded-md p-5">
-              <img src={project1} width={600} />
-              <h3 className="text-2xl font-semibold mt-8">
-                Controle Financeiro
-              </h3>
+            <div className="border border-gray-500 rounded-md p-5 flex-1">
+              <img src={project3} width={600} />
+              <h3 className="text-2xl font-semibold mt-8">portfólio</h3>
               <p className="text-gray-400 text-sm mt-4">
-                Página de Login Responsiva <br />
-                HTML5, CSS3, JavaScript
+                Portfólio responsivo <br />
+                ReactJs, ViteJS, JavaSript, Tailwind
               </p>
-              <div className="flex justify-evenly mt-12">
-                <button className="px-9 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+              <div className="flex mt-12 gap-2">
+                <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Visualizar
                 </button>
-                <button className="px-9 py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                   Code GitHub
                 </button>
               </div>
@@ -215,41 +219,41 @@ function App() {
             <h2 className="text-2xl font-semibold">
               Tecnologias e Skills adicionais
             </h2>
-            <div className="flex justify-between mt-12">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20  justify-between mt-12">
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   GitHub
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Git
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   trabalho em equipe
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Aprendizagem rapida
                 </p>
               </div>
             </div>
-            <div className="flex justify-around mt-8">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20 justify-around mt-4 sm:mt-8">
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Inglês A1
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Foco em desenvolvimento
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Comprometimento
                 </p>
               </div>
@@ -259,7 +263,7 @@ function App() {
         <section className="py-8">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Sobre mim</h2>
-            <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 before:w-1 before:bg-white">
+            <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-20 before:w-1 before:bg-white">
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
                 <p>Curso de Informática</p>
@@ -306,13 +310,19 @@ function App() {
           <div>
             <ul className="flex gap-4">
               <li>
-                <a><img src={Facebook} className="w-5"/></a>
+                <a>
+                  <img src={Facebook} className="w-5" />
+                </a>
               </li>
               <li>
-                <a><img src={Linkedin} className="w-5"/></a>
+                <a>
+                  <img src={Linkedin} className="w-5" />
+                </a>
               </li>
               <li>
-                <a><img src={instagram} className="w-5"/></a>
+                <a>
+                  <img src={instagram} className="w-5" />
+                </a>
               </li>
             </ul>
           </div>
