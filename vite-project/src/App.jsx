@@ -96,7 +96,13 @@ function App() {
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Visualizar
+                    <a
+                      href="https://controle-de-financas-xi.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visualizar
+                    </a>
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     <a
@@ -118,7 +124,13 @@ function App() {
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Visualizar
+                    <a
+                      href="https://responsive-login-seven.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visualizar
+                    </a>
                   </button>
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     <a
@@ -145,7 +157,13 @@ function App() {
               </p>
               <div className="flex mt-12 gap-2">
                 <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                  Visualizar
+                  <a
+                    href="https://jogo-da-forca-five-pi.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visualizar
+                  </a>
                 </button>
                 <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                   <a
@@ -167,7 +185,13 @@ function App() {
               </p>
               <div className="flex mt-12 gap-2">
                 <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                  Visualizar
+                  <a
+                    href="portifolio-vinicius-vnzk.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visualizar
+                  </a>
                 </button>
                 <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                   <a
