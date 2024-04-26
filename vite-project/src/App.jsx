@@ -322,7 +322,7 @@ function App() {
             <h2 className="text-2xl font-semibold">Sobre mim</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-20 before:w-1 before:bg-white">
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2017</h3>
                 <p>Curso de Informática</p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
@@ -330,19 +330,19 @@ function App() {
                 <p>Curso de Inglês</p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2019</h3>
                 <p>Curso de Design Grafico</p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2019</h3>
                 <p>Curso de Programação</p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2022</h3>
                 <p>Curso de Programação (ELITI)</p>
               </div>
               <div className="pl-24 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2023</h3>
                 <p>
                   Analista de Garantia de Qualidade (QA): Teste de Integração:
                   Utilizei o Postman para testar as rotas da API, garantindo a
